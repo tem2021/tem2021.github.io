@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Andy&#39;s fantasy world</title>
   
-  
+  <subtitle>Lifelog</subtitle>
   <link href="http://tem2021.github.io/atom.xml" rel="self"/>
   
   <link href="http://tem2021.github.io/"/>
