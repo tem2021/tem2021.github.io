@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Andy&#39;s fantasy world</title>
   
   
   <link href="http://tem2021.github.io/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://tem2021.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Andy</name>
     
   </author>
   
