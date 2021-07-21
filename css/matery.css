@@ -96,8 +96,8 @@ hr {
 blockquote {
     border-left: 5px solid #42b983;
     padding: 1rem 0.8rem 0.2rem 0.8rem;
-    color: #666;
-    background-color: rgba(66, 185, 131, .1);
+    color: FF90A3;
+    background-color: #f8f8f8;
 }
 
 pre {
@@ -125,7 +125,7 @@ code {
     top: 13px !important;
     font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
     font-size: 0.91rem;
-    color: #e96900;
+    color: #FFD0D8;
     background-color: #f8f8f8;
     border-radius: 2px;
 }
@@ -183,7 +183,7 @@ code {
 
 pre code {
     padding: 0;
-    color: #e8eaf6;
+    color: rgb(225, 242, 245);
     background-color: #272822;
 }
 
@@ -197,8 +197,8 @@ kbd {
     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     font-size: 0.9rem;
     font-weight: 600;
-    background-color: #f8f8f8;
-    color: #34495e;
+    background-color: rgb(225, 242, 245);
+    color: #FF90A3;
     line-height: 1.8rem;
     white-space: nowrap;
 }
@@ -221,7 +221,7 @@ cite {
 }
 
 mark {
-    background-color: #fcf8e3;
+    background-color: rgb(255, 236, 239);
     padding: .2em;
 }
 
@@ -245,11 +245,11 @@ mark {
 }
 
 .text-color {
-    color: #384C70 !important;
+    color: #0A0A0D !important;
 }
 
 .white-color {
-    color: #0A0A0D;
+    color: #FFF;
 }
 
 .progress-bar {
@@ -341,13 +341,13 @@ header .side-nav .menu-list li {
 header .side-nav .menu-list a {
     height: 50px;
     line-height: 50px;
-    color: #34495e !important;
+    color: #FFC0CB !important;
 }
 
 .mobile-menu-list a i {
     margin-left: 8px !important;
     font-size: 1.16rem;
-    color: #34495e !important;
+    color: #FFC0CB !important;
 }
 
 header .side-nav .fa-fw {
@@ -1317,7 +1317,7 @@ thead {
 
 .chip-container .chip:hover {
     color: #fff;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%) !important;
+    background: linear-gradient(to right, #C7B38F 0%, #C7B38F 100%) !important;
 }
 
 .chip .tag-length {
