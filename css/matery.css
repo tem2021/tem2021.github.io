@@ -1342,7 +1342,7 @@ thead {
     height: 80px;
     margin: 10px 0 50px -20px;
     padding: 21px 10px;
-    background-color: #ff5722;
+    background-color: #d598a3;
     color: #fff;
     font-size: 1.8rem;
     font-weight: 600;
@@ -1358,7 +1358,7 @@ thead {
     height: 60px;
     margin: 10px 0 30px -10px;
     padding: 14px 16px;
-    background-color: #ef6c00;
+    background-color: #ffc0cb;
     color: #fff;
     font-size: 1.7rem;
     font-weight: 600;
@@ -1371,7 +1371,7 @@ thead {
 #cd-timeline .day {
     position: relative;
     padding: 8px 10px;
-    background-color: #ffa726;
+    background-color: #ffe9f4;
     color: #fff;
     font-size: 1.2rem;
     font-weight: 500;
