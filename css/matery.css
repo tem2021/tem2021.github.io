@@ -241,11 +241,11 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #4d4b50 0%, #3e3c40 100%);
 }
 
 .text-color {
-    color: #0f9d58 !important;
+    color: #3e3c40 !important;
 }
 
 .white-color {
@@ -257,7 +257,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: linear-gradient(to right, #4d4b50 0%, #3e3c40 100%);
     opacity: 0.8;
 }
 
@@ -1298,7 +1298,7 @@ thead {
 
 .chip-container .chip-active {
     color: #FFF !important;
-    background: linear-gradient(to bottom right, #FF5E3A 0%, #FF2A68 100%) !important;
+    background: linear-gradient(to bottom right, #ffd9e6 0%, #e6cfe6 100%) !important;
     box-shadow: 2px 5px 10px #aaa !important;
 }
 
@@ -1317,7 +1317,7 @@ thead {
 
 .chip-container .chip:hover {
     color: #fff;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%) !important;
+    background: linear-gradient(to right, #4d4b50 0%, #3e3c40 100%) !important;
 }
 
 .chip .tag-length {
@@ -1393,7 +1393,7 @@ thead {
     left: 18px;
     height: 100%;
     width: 4px;
-    background: #0f9d58;
+    background: #3e3c40;
 }
 
 @media only screen and (min-width: 900px) {
@@ -1629,8 +1629,8 @@ thead {
     margin: 0 0.5rem;
     padding: 0;
     color: #fff;
-    border: 1px solid #0f9d58;
-    background: radial-gradient(#4cbf30, #0f9d58);
+    border: 1px solid #3e3c40;
+    background: radial-gradient(#4d4b50, #3e3c40);
     font-size: 0.9rem;
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .21), 0 2px 3px rgba(0, 0, 0, .1);
@@ -1806,8 +1806,8 @@ thead {
 
 .other-skills .chip:hover {
     color: #fff;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
-    border: 1px solid #4cbf30;
+    background: linear-gradient(to right, #4d4b50 0%, #3e3c40 100%);
+    border: 1px solid #4d4b50;
     box-shadow: 0 5px 5px rgba(0, 0, 0, .25)
 }
 
@@ -1903,7 +1903,7 @@ footer .copy-right {
 }
 
 .top-scroll .btn-floating {
-    background: linear-gradient(to bottom right, #FF5E3A 0%, #FF2A68 100%);
+    background: linear-gradient(to bottom right, #ffd9e6 0%, #e6cfe6 100%);
     width: 48px;
     height: 48px;
 }
@@ -1963,7 +1963,7 @@ footer .copy-right {
 }
 
 .center-caption {
-    color: #525f7f;
+    color: #292929;
     padding: 5px;
     border-bottom: 1px solid #d9d9d9;
 }
