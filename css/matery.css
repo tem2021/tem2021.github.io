@@ -241,15 +241,15 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 100%);
+    background-image: linear-gradient(to right, #FFF 0%, #FFF 100%);
 }
 
 .text-color {
-    color: #0f9d58 !important;
+    color: #384C70 !important;
 }
 
 .white-color {
-    color: #fff;
+    color: #0A0A0D;
 }
 
 .progress-bar {
@@ -257,7 +257,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: linear-gradient(to right, #4cbf30 0%, #C7B38F 100%);
     opacity: 0.8;
 }
 
