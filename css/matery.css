@@ -128,7 +128,7 @@ code {
     top: 13px !important;
     font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
     font-size: 0.91rem;
-    color: #e96900;
+    color: #FFC0CB;
     background-color: #f8f8f8;
     border-radius: 2px;
 }
@@ -1889,7 +1889,7 @@ footer .copy-right {
     padding: 1px 5px 1px 4px;
     border-radius: 2px;
     background-color: #f2f2f2;
-    color: #e96900;
+    color: #FFC0CB;
     font-style: normal;
     white-space: pre-wrap;
 }
