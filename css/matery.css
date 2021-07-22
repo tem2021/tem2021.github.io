@@ -2,9 +2,12 @@
 /*小屏幕下(手机类)的样式*/
 @media only screen and (max-width: 601px) {
     .container {
-        width: 95%;
+        width: 100%;
     }
-   header .brand-logo .logo-img{
+       header .brand-logo .logo-img{
+        display: none;
+    }
+       header .brand-logo .logo-span{
         display: none;
     }
 }
@@ -13,9 +16,6 @@
 @media only screen and (min-width: 600px) and (max-width: 992px) {
     .container {
         width: 90%;
-    }
-   header .brand-logo .logo-img{
-        display: none;
     }
 }
 
@@ -311,7 +311,7 @@ header .brand-logo .waves-effect {
 }
 
 header .button-collapse i {
-    font-size: 1.5rem;
+    font-size: 1.5rem;/*三条杠大小*/
 }
 
 header .side-nav .mobile-head {
