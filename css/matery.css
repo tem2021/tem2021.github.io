@@ -14,6 +14,9 @@
     .container {
         width: 90%;
     }
+       header .brand-logo .logo-img{
+        display: none;
+    }
 }
 
 /*大屏幕下(桌面类)的样式*/
