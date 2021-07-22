@@ -698,7 +698,7 @@ header .go-back i {
 }
 
 .dream {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 40px;
 }
 
@@ -728,7 +728,7 @@ header .go-back i {
 
 #recommend-sections {
     margin-top: -30px;
-    padding-top: 30px;
+    padding-top: 0px;
 }
 
 .index-card .card .card-content {
@@ -1833,11 +1833,11 @@ thead {
 
 /*尾部样式*/
 footer {
-    padding-bottom: 1px;
+    padding-bottom: 10px;
 }
 
 footer .social-statis {
-    margin-top: 10px;
+    margin-top: 1px;
     position: relative;
 }
 
@@ -2142,3 +2142,4 @@ footer .copy-right {
     padding: 0;
     margin: 0;
 }
+1
