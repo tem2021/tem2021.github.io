@@ -6,7 +6,7 @@
   <link href="http://tem2021.github.io/atom.xml" rel="self"/>
   
   <link href="http://tem2021.github.io/"/>
-  <updated>2021-07-20T10:23:28.485Z</updated>
+  <updated>2021-07-24T08:04:55.586Z</updated>
   <id>http://tem2021.github.io/</id>
   
   <author>
@@ -17,18 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>博客开发日志</title>
+    <link href="http://tem2021.github.io/2021/07/24/%E5%8D%9A%E5%AE%A2%E6%97%A5%E5%BF%97/"/>
+    <id>http://tem2021.github.io/2021/07/24/%E5%8D%9A%E5%AE%A2%E6%97%A5%E5%BF%97/</id>
+    <published>2021-07-24T08:08:24.965Z</published>
+    <updated>2021-07-24T08:04:55.586Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&amp;lt;部分复制自我的Onenote，并做适当修改&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;全文用Pycharm进行编辑&amp;gt;&lt;/p&gt;
+&lt;p&gt;#&lt;strong&gt;2021.7.23&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;做为一名程序白痴，本来打算今早完成域名购买，奈何认证需要证件照，此事不</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="http://tem2021.github.io/2021/07/20/hello-world/"/>
     <id>http://tem2021.github.io/2021/07/20/hello-world/</id>
     <published>2021-07-20T10:23:28.485Z</published>
-    <updated>2021-07-20T10:23:28.485Z</updated>
+    <updated>2021-07-24T05:25:04.575Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;p&gt;😉这是自动生成的，我也不想删除，就留着做纪念吧lol&lt;br&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a</summary>
         
       
     
