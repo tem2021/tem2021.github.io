@@ -382,14 +382,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3.6k
+                    3.9k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    13 分
+                    14 分
                 </div>
                 
 
@@ -556,7 +556,40 @@ hexo s (在本地预览效果)
 hexo d (上传部署)
 </code></pre>
 <p>如果出现本地预览和部署结果不同的情况，有一下两种可能：<br>1.没有清楚缓存，建议重新执行 hexo cl &amp;&amp; hexo g<br>2.也就是我遇到的情况，网页中的背景、icon都无法加载出来，此时可能是浏览器本身的问题，在blog首页执行shift+F5即可</p>
-<p><br>好鵺，总算是把这些都解决了，接下来或许会添加点看板娘之类的东西吧……<br><img src="/2021/07/24/blog-making-journal/image-20210725130607799.png" alt="非常屑的德莉莎图"></p>
+<p><br>好鵺，总算是把这些都解决了，接下来或许会添加点看板娘之类的东西吧……</p>
+<h1 id="2021-7-25晚-更"><a href="#2021-7-25晚-更" class="headerlink" title="2021/7/25晚 更"></a>2021/7/25晚 更</h1><h2 id="看板娘的载入"><a href="#看板娘的载入" class="headerlink" title="[看板娘的载入]"></a>[看板娘的载入]</h2><p>不如说我这是“看板猫”，这个的添加还是非常简单的，下面附上参考文章<br>[<a target="_blank" rel="noopener" href="https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md">Hexo-如何养一只看板娘(博客宠物) - 知乎 </a><br>按照上述的步骤很容易就能完成，只需要一个插件和hexoblog下_config.yml文件的调试即可<br></p>
+<pre><code>npm install --save hexo-helper-live2d
+</code></pre>
+<pre><code>npm install live2d-widget-model-所选模型
+</code></pre>
+<pre><code>live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-wanko
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
+  react:
+    opacity: 0.7
+</code></pre>
+<p>下面再补充一个可能遇到的问题，即live2d的位置：<br><img src="/2021/07/24/blog-making-journal/image-20210725205446789.png" alt="image-20210725205446789"></p>
+<p>这里可以通过调试上文添加的两行代码，以此来的到自己想要的结果</p>
+<pre><code>    width: 150
+    height: 300
+</code></pre>
+<blockquote>
+<p>缺点：调试往往会伴随live2d大小的改变，调到自己满意即可，具体的例如调整左右px的代码我懒得找了（doge）</p>
+</blockquote>
+<p><img src="/2021/07/24/blog-making-journal/image-20210725130607799.png" alt="德莉莎的微笑"></p>
 <p><br>未完待续~ ~</p>
 
                 
