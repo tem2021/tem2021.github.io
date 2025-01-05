@@ -14,7 +14,7 @@
                 background-color: black; /* CGA background color */
                 color: cyan; /* CGA text color */
                 line-height: 1.6; /* Improve readability with better line height */
-                margin: 46px; /* Add some margin for better spacing */
+                margin: 48px; /* Add some margin for better spacing */
                 font-size: 40px;
             }
             h1,
